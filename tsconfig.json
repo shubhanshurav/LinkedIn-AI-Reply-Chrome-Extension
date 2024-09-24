@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Or "react" if you're using older React versions
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "target": "es6",
+    "module": "esnext",
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./chrome-mv3",
+    "rootDir": "entrypoints/popup"
+  },
+  "include": [
+    "entrypoints/popup/src/**/*",
+    "entrypoints/popup/background.ts",
+    "entrypoints/popup/content.ts"
+  ]
+}

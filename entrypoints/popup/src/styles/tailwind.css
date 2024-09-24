@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ai-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+}
